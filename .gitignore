@@ -1,0 +1,40 @@
+
+# Dataset
+data/raw/
+data/data_raw/
+data/processed/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Trained models
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Results (generated files)
+results/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# VS Code
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
